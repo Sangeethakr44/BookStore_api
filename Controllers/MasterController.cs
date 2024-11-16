@@ -189,7 +189,6 @@ namespace BookStore.Controllers
             applicationDBContext.SaveChanges();
             return Ok(book);
         }
-
         [HttpPost("Login")]
         public IActionResult LoginUser(LoginDto loginDto)
         {
@@ -218,8 +217,6 @@ namespace BookStore.Controllers
                 throw;
             }
         }
-
-
 
 
         //[HttpPut]

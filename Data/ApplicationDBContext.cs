@@ -29,5 +29,6 @@ namespace BookStore.Data
         public DbSet<UserList> UserLists { get; set; }
         public DbSet<OrderDetails>orderDetails { get; set; }
         public DbSet<BookCategory>bookCategories { get; set; }
+        public DbSet<Registers> registers { get; set; }
     }
 }
